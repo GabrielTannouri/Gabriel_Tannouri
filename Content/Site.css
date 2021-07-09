@@ -1,0 +1,61 @@
+﻿body {
+    padding-bottom: 20px;
+}
+
+.card {
+    background-color: saddlebrown;
+}
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.select2-header {
+    padding: 6px 13px 6px 9px;
+    background-color: #eee;
+    font-weight: bold;
+}
+
+.col-select2 {
+    padding-right: 2px !important;
+    padding-left: 2px !important;
+}
+
+.required:after {
+    content: "*";
+    margin-left: 5px;
+    text-align: center;
+    color: red;
+    font-size: 18px;
+}
+
+.kgroup {
+}
+    .kgroup .id-input {
+        width: 45px;
+    }
+
+    .kgroup .search-button {
+        width: 45px;
+        height: 38px;
+        background-color: #f3f3f3;
+        border-top: 1px solid #e1e1e1;
+        border-bottom: 1px solid #e1e1e1;
+    }
+
+        .kgroup .search-button .fa-search {
+            margin-top: -3px;
+        }
+
+    .kgroup .input-field {
+        width: calc(100% - 133px);
+        height: 45px;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+    }
+
+    .kgroup .select2-container {
+        height: 45px;
+    }
+
+
